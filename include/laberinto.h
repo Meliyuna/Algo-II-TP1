@@ -3,6 +3,7 @@
 #include "recorrido.h"
 #include "mochila.h"
 
+
 class Laberinto
 {
     public:

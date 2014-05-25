@@ -6,8 +6,8 @@
 
 class Recorrido{
     private:
-        Lista <char>* caminos1;
-        Lista <char>* bifurcaciones1;
+        Lista <Camino>* caminos1;
+        Lista <Camino>* bifurcaciones1;
         int cantBifurcaciones;
         int cantUniRecorridas;
         int cantGiros;

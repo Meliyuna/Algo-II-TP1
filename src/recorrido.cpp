@@ -22,8 +22,7 @@ void Recorrido::setColor(RGB colorCamino){
 void Recorrido::agregarCamino(std::string comando){
 
     switch (comando[0]){
-        case 'G':
-
+        case 'G':   caminos1->agregarElemento(Camino pasos(RGB color));
                     break;
         case 'A':
                     break;
