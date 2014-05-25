@@ -1,26 +1,30 @@
 #include "Laberinto.h"
-#include "Lista.h"
-#include "Mochila.h"
-
-Lista<Mochila.h>* mochila;
+#include "Nodo.h"
 
 Laberinto::Laberinto()
 {
-    //ctor
+    this ->ancho=0;
+    this ->largo=0;
 }
 
-bool Laberinto::buscarEnMochila (string nombre)
+bool Laberinto::buscarEnMochila (std::string nombre)
 {
     //uso busqueda secuencial
-    int encontrado=0;
+   /* bool encontrado=false;
 
-    string comparar=mochila->primero->getNombreElemento();
-    while ((!(mochila->cursorVacio()))&&(!encontrado))
+    std::string comparar;
+
+    mochila->iniciarCursor();
+    mochila->avanzarCursor();
+    comparar=mochila->cursor->getDato();
+
+
+    while ((mochila->tieneSiguiente())&&(!encontrado))
     {
         if (comparar!=nombre)
         {
             mochila->avanzarCursor();
-            comparar=mochila->cursor->getNombreElemento();
+            comparar=mochila->cursor->getNombre();
         }
         else
             encontrado++;
@@ -30,6 +34,6 @@ bool Laberinto::buscarEnMochila (string nombre)
 
 Laberinto::~Laberinto()
 {
-    //dtor
+    //dtor */
+    return 0;
 }
-

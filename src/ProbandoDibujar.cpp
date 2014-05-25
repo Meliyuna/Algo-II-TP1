@@ -1,18 +1,8 @@
+
 #include <iostream>
 #include "Dibujar.h"
 #include "VariablesGlobales.h"
 using namespace std;
-
-enum tipoColor {
-	ROJO,
-	VERDE,
-	AZUL,
-	NEGRO,
-	BLANCO,
-	GRIS,
-	AMARILLO,
-	NARANJA
-};
 
 int probando() {
 

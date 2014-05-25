@@ -1,0 +1,21 @@
+#ifndef VARIABLESGLOBALES_H_
+#define VARIABLESGLOBALES_H_
+
+enum tipoColor {
+	ROJO,
+	VERDE,
+	AZUL,
+	NEGRO,
+	BLANCO,
+	GRIS,
+	AMARILLO,
+	NARANJA
+};
+
+
+
+
+
+
+
+#endif /* VARIABLESGLOBALES_H_ */

@@ -38,7 +38,7 @@ class Camino{
     private:
         RGB color;
         Emovimiento movimiento;
-        Esentido sentido;
+        Esentido sentido; // DEBERIA EXISTIR NULL, DADO QUE CUANDO ES BIFURCACION
         CaminoBifurcacion* bifurcacion;
         CaminoMochila* mochila;
         std::string* unionNombre;
