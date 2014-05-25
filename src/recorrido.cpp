@@ -19,15 +19,24 @@ void Recorrido::setColor(RGB colorCamino){
 
 }
 
-void Recorrido::agregarCamino(string comando){
+void Recorrido::agregarCamino(std::string comando){
 
-    switch comando[0]{
-        case G:
-                break;
-        case A:
-                break;
-        case R:
-                break;
+    switch (comando[0]){
+        case 'G':
+
+                    break;
+        case 'A':
+                    break;
+        case 'R':
+                    break;
+        case 'B':
+                    break;
+        case 'L':
+                    break;
+        case 'T':
+                    break;
+        case 'U':
+                    break;
 
     }
 
