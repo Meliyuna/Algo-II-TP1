@@ -1,6 +1,6 @@
 #ifndef MOCHILA_H_INCLUDED
 #define MOCHILA_H_INCLUDED
-#include <string>
+#include "nodo.h"
 class Mochila
 {
 private:

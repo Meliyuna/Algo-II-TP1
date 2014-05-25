@@ -4,7 +4,7 @@
 #include "VariablesGlobales.h"
 using namespace std;
 
-int main() {
+int probando() {
 
 
 	// se crea el objeto Dibujar, yo le puse de nonbre dibujar x'D
@@ -78,5 +78,5 @@ int main() {
 
 	cout<<"HECHO!";
 
-
+    return 0;
 }

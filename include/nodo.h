@@ -1,5 +1,8 @@
 #ifndef NODO_H_INCLUDED
 #define NODO_H_INCLUDED
+#include <cstddef>
+#include <string>
+
 // Estos Nodos son Doblemente Enlazados
 template <typename Dato>
 class Nodo
@@ -13,7 +16,7 @@ public:
     // Constructor
     // Pre: El dato debe ser valido
     // Post: Crea un Nodo Doblemente Enlazado iniciandolo con el dato pasado por parametro. Por defecto se asigna NULL para todos los atributos.
-    Nodo(Dato dato=0);
+    Nodo(Dato dato);
 
     // Modificar Dato
     // Pre: Nodo creado. Dato valido
