@@ -19,3 +19,10 @@
 *.exe
 *.out
 *.app
+
+# CodeBlock
+bin/
+obj/
+*.cbp
+*.depend
+*.layout
