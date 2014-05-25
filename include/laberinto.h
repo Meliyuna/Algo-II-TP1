@@ -1,16 +1,18 @@
 #ifndef LABERINTO_H_H
 #define LABERINTO_H_H
-#include "recorrido.h"
-#include "mochila.h"
 
 
+<<<<<<< HEAD
 class Laberinto
+=======
+class Laberinto.h
+>>>>>>> b11056e6e2d624e62a04c7fce3ec505bc0022c12
 {
     public:
         //Constructor
         //PRE
         //POST
-        Laberinto();
+        Laberinto.h();
 
         //Actualizar Coordenadas
         //PRE
@@ -25,18 +27,18 @@ class Laberinto
         //Buscar en Mochila
         //PRE: Recibe un parametro para buscar en "Mochila"
         //POST: Indica si el elemento se encuentra o no
-        bool buscarEnMochila(std::string nombre);
+        bool buscarEnMochila(string nombre);
 
         //Destructor
         //PRE
         //POST
-        ~Laberinto();
+        virtual ~Laberinto.h();
 
     private:
         int ancho;
         int largo;
-        Lista<Recorrido*>* recorrido;
-        Lista<Mochila*>* mochila;
+        Lista<*Tda Recorridos>* recorrido;
+        Lista<*Tda Mochila>* mochila;
 };
 
 #endif // LABERINTO_H_H

@@ -39,6 +39,12 @@ Camino::Camino(RGB color, Emovimiento movimiento,Esentido sentido,CaminoBifurcac
     this->mochila=mochila;
     this->unionNombre=unionNombre;
 }
+Camino::Camino(RGB color)
+{
+    this->color=color;
+    this->bifurcacion=NULL;
+    this->mochila=NULL;
+}
 RGB Camino::get_color(){
     return this->color;
 }
