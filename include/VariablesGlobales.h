@@ -9,7 +9,7 @@ enum tipoColor {
 	BLANCO,
 	GRIS,
 	AMARILLO,
-	NARANJA,
+	NARANJA
 };
 
 
