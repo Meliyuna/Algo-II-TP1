@@ -32,3 +32,4 @@ Laberinto::~Laberinto()
 {
     //dtor
 }
+
