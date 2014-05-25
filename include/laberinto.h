@@ -2,13 +2,13 @@
 #define LABERINTO_H_H
 
 
-class Laberinto.h
+class Laberinto
 {
     public:
         //Constructor
         //PRE
         //POST
-        Laberinto.h();
+        Laberinto();
 
         //Actualizar Coordenadas
         //PRE
@@ -28,7 +28,7 @@ class Laberinto.h
         //Destructor
         //PRE
         //POST
-        virtual ~Laberinto.h();
+        ~Laberinto();
 
     private:
         int ancho;
