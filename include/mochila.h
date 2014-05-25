@@ -1,10 +1,11 @@
 #ifndef MOCHILA_H_INCLUDED
 #define MOCHILA_H_INCLUDED
+#include <string>
 class Mochila
 {
 private:
     // Revisar si no necesita accion.
-    string nombreElemento;
+    std::string nombreElemento;
     // No puede levantar mas de un elemento
     unsigned int cantidad;
 public:
@@ -16,12 +17,12 @@ public:
     // Modificar Nombre
     // Pre: Objeto Creado
     // Post: Modifica el Nombre del Elemento.
-    void setNombreElemento(string nombre);
+    void setNombreElemento(std::string nombre);
 
     // Obtener Nombre
     // Pre: Objeto Creado
     // Post: Devuelve el Nombre del Elemento
-    string getNombreElemento();
+    std::string getNombreElemento();
 
     // Obtener Cantidad
     // Pre: Objeto Creado

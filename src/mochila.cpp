@@ -8,13 +8,13 @@ Mochila::Mochila()
 }
 
 // Modificar Nombre
-void Mochila::setNombreElemento(string nombre)
+void Mochila::setNombreElemento(std::string nombre)
 {
     this->nombreElemento=nombre;
 }
 
 // Obtener Nombre
-string Mochila::getNombreElemento()
+std::string Mochila::getNombreElemento()
 {
     return nombreElemento;
 }
@@ -26,13 +26,13 @@ int Mochila::getCantidad()
 }
 
 // Sumar Cantidad
-void Mochila::setCantidad(int cantidad)
+void Mochila::sumarCantidad()
 {
     this->cantidad++;
 }
 
 // Restar Cantidad
-void Mochila::setCantidad(int cantidad)
+void Mochila::restarCantidad()
 {
     this->cantidad--;
 }
